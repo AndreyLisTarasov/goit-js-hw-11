@@ -15,7 +15,7 @@ let currentPage = 1;
 async function onSearch(e) {
   e.preventDefault();
 
-  const { searchQuery } = e.target;
+  const {searchQuery} = e.target;
 
   if (!searchQuery.value) {
     Notify.info(
